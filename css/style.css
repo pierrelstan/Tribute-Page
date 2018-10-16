@@ -1,0 +1,55 @@
+
+#main {
+  width: 80%;
+  background-color: white;
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#title {
+ 
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+#img-div {
+  background-color: white;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  background-color: white;
+}
+
+#img-caption {
+  text-align: center;
+}
+#tribute-info {
+  background-color: rgb(238, 238, 238);
+}
+#tribute-link {
+  text-align: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+}
